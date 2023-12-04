@@ -1,0 +1,100 @@
+<div class="container mt-4">
+  <h2 class="text-center">Crear Película</h2>
+  <form
+    (ngSubmit)="saveMovie()"
+    class="mt-4"
+    [ngClass]="{ 'was-validated': movieForm.valid && movieForm.dirty }"
+    #movieForm="ngForm"
+    novalidate
+  >
+    <!-- Título -->
+    <div class="form-group">
+      <label i18n for="titulo">Título:</label>
+      <input
+        type="text"
+        name="titulo"
+        id="titulo"
+        class="form-control custom-width"
+        [(ngModel)]="movie.title"
+        required
+        minlength="1"
+      />
+      <div
+        class="alert alert-danger"
+        *ngIf="
+          movieForm.controls['titulo'].invalid &&
+          (movieForm.controls['titulo'].dirty || movieForm.controls['titulo'].touched)
+        "
+      >
+        <div i18n *ngIf="movieForm.controls['titulo'].errors?.['required']">
+          Título requerido
+        </div>
+        <div i18n *ngIf="movieForm.controls['titulo'].errors?.['minlength']">
+          Título demasiado corto
+        </div>
+      </div>
+    </div>
+
+    <!-- Director -->
+    <div class="form-group">
+      <label i18n for="director">Director:</label>
+      <input
+        type="text"
+        name="director"
+        id="director"
+        class="form-control custom-width"
+        [(ngModel)]="movie.director"
+      />
+    </div>
+
+    <!-- Género -->
+    <div class="form-group">
+      <label i18n for="genero">Género:</label>
+      <select
+        name="genero"
+        id="genero"
+        class="form-control custom-width"
+        [(ngModel)]="movie.genre"
+      >
+        <option i18n value="acción">Acción</option>
+        <option i18n  value="comedia">Comedia</option>
+        <option i18n  value="drama">Drama</option>
+        <option i18n  value="ciencia_ficción">Ciencia Ficción</option>
+        <option i18n  value="romance">Romance</option>
+      </select>
+    </div>
+
+    <!-- Año de Lanzamiento -->
+    <div class="form-group">
+      <label  i18n for="añoLanzamiento">Año de lanzamiento:</label>
+      <input
+        type="number"
+        name="añoLanzamiento"
+        id="añoLanzamiento"
+        class="form-control custom-width"
+        [(ngModel)]="movie.release"
+      />
+    </div>
+
+    <!-- Sinopsis -->
+    <div class="form-group">
+      <label  i18n for="sinopsis">Sinopsis:</label>
+      <textarea
+        name="sinopsis"
+        id="sinopsis"
+        class="form-control custom-width"
+        [(ngModel)]="movie.sinopsis"
+      ></textarea>
+    </div>
+
+    <!-- Mensajes de Éxito y Error -->
+    <div *ngIf="successMessage" class="alert alert-success mt-3">
+      {{ successMessage }}
+    </div>
+    <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+      {{ errorMessage }}
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+    
+  

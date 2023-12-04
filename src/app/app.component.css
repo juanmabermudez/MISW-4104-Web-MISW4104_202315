@@ -1,0 +1,36 @@
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-section {
+    margin-bottom: 30px;
+}
+
+.footer-links,
+.footer-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #0069d9;
+}
+/* Estilos para el footer */
+.footer-color {
+    background-color: #141414; /* Color deseado para el footer */
+    color: #fff; /* Color del texto, ajusta según sea necesario para el contraste */
+    /* Otros estilos según tu diseño */
+}
+/* Agrega más estilos según tus necesidades */

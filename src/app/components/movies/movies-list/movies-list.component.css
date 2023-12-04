@@ -1,0 +1,43 @@
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-text {
+    color: #666;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text > span {
+    color: #333; /* Cambia el color del texto del año y el rating */
+    font-weight: bold; /* Añade negrita para destacar */
+  }
+
+  .movie-card .release-year-text {
+    color: white; /* Cambia el color del año de lanzamiento */
+}
+
+  .movie-card .rating-text {
+    color: white; /* Cambia el color de 'Rating:' y su valor */
+}

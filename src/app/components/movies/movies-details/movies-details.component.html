@@ -1,0 +1,65 @@
+<div class="container mt-4" *ngIf="movie">
+    <div class="row">
+      <div class="col-md-4">
+        <ng-container *ngIf="movie.poster_path">
+          <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" class="img-fluid" alt="Imagen de la película">
+        </ng-container>
+        <ng-container *ngIf="!movie.poster_path">
+          <img src="assets/images/noimagen.jpg" class="img-fluid" alt="Imagen no disponible">
+        </ng-container>
+      </div>
+      <div class="col-md-8">
+        <h2>{{ movie.title }}</h2>
+        <p i18n >Año de lanzamiento: <span>{{ movie.release_date }}</span></p>
+        <p i18n >Clasificación: <span>{{ movie.vote_average }}</span></p>
+        <p i18n >Duración: <span>{{ movie.runtime }} min</span></p>
+        <p i18n >Resumen:</p>
+        <p>{{ movie.overview }}</p>
+  
+        <h3 i18n >Géneros:</h3>
+        <ul>
+          <li *ngFor="let genre of movie.genres">
+            {{ genre.name }}
+          </li>
+        </ul>
+  
+        <h3 i18n >Compañías de Producción:</h3>
+        <ul>
+          <li *ngFor="let company of movie.production_companies">
+            {{ company.name }}
+          </li>
+        </ul>
+  
+        <h3 i18n >Países de Producción:</h3>
+        <ul>
+          <li *ngFor="let country of movie.production_countries">
+            {{ country.name }}
+          </li>
+        </ul>
+  
+        <h3 i18n >Idiomas:</h3>
+        <ul>
+          <li *ngFor="let language of movie.spoken_languages">
+            {{ language.name }}
+          </li>
+        </ul>
+  
+        <h3 i18n>Escribir una reseña:</h3>
+  <form (ngSubmit)="submitReview()" class="mb-4">
+    <div class="form-group">
+      <label for="review">Tu reseña:</label>
+      <textarea name="review" id="review" class="form-control" rows="5" [(ngModel)]="userReview"></textarea>
+    </div>
+    <ng-container *ngIf="userReview !== undefined"> <!-- Agregar validación aquí -->
+      <div *ngIf="userReview.length < 50" class="text-danger">La reseña debe tener al menos 50 caracteres.</div>
+      <button type="submit" class="btn btn-primary" [disabled]="userReview.length < 50">Enviar reseña</button>
+    </ng-container>
+  </form>
+  <div *ngIf="successMessage" class="alert alert-success mt-3">
+    {{ successMessage }}
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+    {{ errorMessage }}
+  </div>
+</div>
+  

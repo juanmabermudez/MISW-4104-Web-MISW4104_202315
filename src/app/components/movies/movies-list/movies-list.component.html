@@ -1,0 +1,15 @@
+<div class="row" *ngIf="movies">
+  <div class="col-md-3 col-sm-6 col-xs-12 mb-4" *ngFor="let movie of movies">
+    <div class="card h-100 movie-card movie-hover">
+      <a [routerLink]="['/movie', movie.id]">
+        <img [src]="movie.poster_path ? 'https://image.tmdb.org/t/p/w500' + movie.poster_path : 'assets/images/noimagen.jpg'" [alt]="movie.title || 'No Image Available'" class="card-img-top" style="cursor: pointer;">
+      </a>
+
+      <div class="card-body">
+        <h5 class="card-title">{{ movie.title || 'Title Not Available' }}</h5>
+        <p i18n class="card-text"><span class="release-year-text" style="color: black;">Año de Lanzamiento: {{ (movie.release_date | date: 'yyyy') || 'N/A' }}</span></p>
+        <p i18n class="card-text"><span class="rating-text" style="color: black;">Rating: {{ movie.vote_average || 'N/A' }}</span></p>
+      </div>
+    </div>
+  </div>
+</div>

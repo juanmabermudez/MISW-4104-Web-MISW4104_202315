@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.component.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main>
+    <div class="pelicula-principal">
+      <div class="contenedor">
+        <h3 class="titulo">Interestellar</h3>
+        <p i18n class="descripcion">
+          Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.
+        </p>
+        <button role="button" class="boton"><a href="https://www.imdb.com/video/vi1586278169/?playlistId=tt0816692&ref_=tt_ov_vi" target="_blank"><i class="fas fa-play"></i>Reproducir</a></button>
+        <button role="button" class="boton"><a href="https://www.imdb.com/title/tt0816692/" target="_blank"><i class="fas fa-info-circle"></i>Más información</a></button>
+      </div>
+    </div>
+
+    <div class="peliculas-recomendadas contenedor">
+      <div class="contenedor-titulo-controles">
+        <div class="indicadores"></div>
+      </div>
+
+      <div class="contenedor-principal">
+        <button (click)="scrollLeft()" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+        <div class="contenedor-carousel">
+          <button (click)="scrollLeft()" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+          <div class="carousel" #carousel>
+            <div *ngFor="let movie of randomMovies" class="pelicula">
+              <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" alt="Movie Poster">
+            </div>
+          </div>
+          <button (click)="scrollRight()" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+        </div>
+
+        <button (click)="scrollRight()" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+      </div>
+	  <div class="contenedor-carousel">
+		<button (click)="scrollLeft()" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+		<div class="carousel" #carousel>
+		  <div *ngFor="let movie of randomMovies" class="pelicula">
+			<img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" alt="Movie Poster">
+		  </div>
+		</div>
+		<button (click)="scrollRight()" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+	  </div>
+
+	  <button (click)="scrollRight()" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+	
+    </div>
+</main>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="src\assets\js\main.js"></script>
+</body>
+</html>
