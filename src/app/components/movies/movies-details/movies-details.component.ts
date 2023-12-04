@@ -10,10 +10,10 @@ import { MoviesService } from 'src/app/services/movies.service';
 export class MoviesDetailComponent implements OnInit {
   movieId: number | undefined;
   movie: any;
-  errorLoadingMovie: boolean = false; // Variable para controlar errores de carga
-  userReview: string = ''; // Propiedad para almacenar la reseña del usuario
-  successMessage: string = ''; // Mensaje de éxito al agregar la reseña
-  errorMessage: string = ''; // Mensaje de error al agregar la reseña
+  errorLoadingMovie: boolean = false;
+  userReview: string = '';
+  successMessage: string = '';
+  errorMessage: string = '';
   
 
   constructor(
@@ -46,17 +46,16 @@ export class MoviesDetailComponent implements OnInit {
   submitReview(): void {
     if (this.movie && this.userReview) {
       if (!this.movie.reviews) {
-        this.movie.reviews = []; // Inicializa si no existe
+        this.movie.reviews = [];
       }
       
-      // Agrega la reseña al arreglo de reseñas
       this.movie.reviews.push(this.userReview);
 
       this.successMessage = 'Reseña agregada exitosamente';
-      this.errorMessage = ''; // Limpiar mensaje de error si existe
+      this.errorMessage = ''; 
     } else {
       this.errorMessage = 'No se pudo agregar la reseña. Por favor, inténtalo de nuevo.';
-      this.successMessage = ''; // Limpiar mensaje de éxito si existe
+      this.successMessage = '';
     }
   }
 }

@@ -9,11 +9,11 @@ import { NgForm } from '@angular/forms';
 })
 export class CreateMovieComponent implements OnInit {
   movie: any = {
-    actors: [] // Array para almacenar actores seleccionados
+    actors: []
   };
   successMessage: string = '';
   errorMessage: string = '';
-  movies: any[] = []; // Lista para almacenar todas las películas
+  movies: any[] = [];
 
   constructor(private moviesService: MoviesService) {}
 
@@ -35,8 +35,8 @@ export class CreateMovieComponent implements OnInit {
   saveMovie(): void {
     this.moviesService.createMovie(this.movie).subscribe(
       (data) => {
-        this.movie = {}; // Limpiar el formulario después de agregar la película
-        this.loadMovies(); // Llamar a la función para cargar las películas actualizadas
+        this.movie = {};
+        this.loadMovies();
         this.successMessage = 'Película agregada correctamente';
         console.log('Película agregada localmente:', data);
       },
@@ -48,8 +48,6 @@ export class CreateMovieComponent implements OnInit {
   }
 
   cancelCreation(): void {
-    // Lógica para cancelar la creación de la película
-    // Por ejemplo, puedes redirigir a otra página o limpiar el formulario, etc.
     console.log('Creación cancelada');
   }
 }

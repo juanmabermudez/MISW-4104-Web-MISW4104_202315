@@ -1,137 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file source-language="es-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="4502798596162438451" datatype="html">
-        <source> Actores </source>
-        <target>Actors</target>
-      </trans-unit>
-      <trans-unit id="283291494301667049" datatype="html">
-        <source> Directores </source>
-        <target>Directors</target>
-      </trans-unit>
-      <trans-unit id="5223288228842419652" datatype="html">
-        <source>Directores Destacados</source>
-        <target>Outstanding Directors</target>
-      </trans-unit>
-      <trans-unit id="2562963286960758151" datatype="html">
-        <source>Directores Premiados</source>
-        <target>Award-winning Directors</target>
-      </trans-unit>
-      <trans-unit id="8927975984143490369" datatype="html">
-        <source> Géneros </source>
-        <target>Genres</target>
-      </trans-unit>
-      <trans-unit id="1279538815662451526" datatype="html">
-        <source>Acción</source>
-        <target>Action</target>
-      </trans-unit>
-      <trans-unit id="7545104110348041963" datatype="html">
-        <source>Drama</source>
-        <target>Drama</target>
-      </trans-unit>
-      <trans-unit id="7444389376942611924" datatype="html">
-        <source>Comedia</source>
-        <target>Comedy</target>
-      </trans-unit>
-      <trans-unit id="3903444259425984302" datatype="html">
-        <source>Thriller</source>
-        <target>Thriller</target>
-      </trans-unit>
-      <trans-unit id="2586525251819930434" datatype="html">
-        <source>Romance</source>
-        <target>Romance</target>
-      </trans-unit>
-      <trans-unit id="5808487627583461007" datatype="html">
-        <source>Ciencia ficción</source>
-        <target>Science Fiction</target>
-      </trans-unit>
-      <trans-unit id="9208846653806748516" datatype="html">
-        <source> Películas </source>
-        <target>Movies</target>
-      </trans-unit>
-      <trans-unit id="5630208417292473095" datatype="html">
-        <source>Más Populares</source>
-        <target>Most Popular</target>
-      </trans-unit>
-      <trans-unit id="5329248590514087031" datatype="html">
-        <source>Novedades</source>
-        <target>New Releases</target>
-      </trans-unit>
-      <trans-unit id="2824586844633101998" datatype="html">
-        <source>Crear Nueva Película</source>
-        <target>Create New Movie</target>
-      </trans-unit>
-      <trans-unit id="8713073708350341933" datatype="html">
-        <source>Buscar</source>
-        <target>Search</target>
-      </trans-unit>
-      <trans-unit id="805660034500030791" datatype="html">
-        <source> Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar. </source>
-        <target>Tells the adventures of a group of explorers who use a recently discovered wormhole to overcome the limitations of crewed space travel and overcome the immense distances that an interstellar journey entails.</target>
-      </trans-unit>
-      <trans-unit id="3812227085124696063" datatype="html">
-        <source>Películas Recomendadas</source>
-        <target>Recommended Movies</target>
-      </trans-unit>
-      <trans-unit id="5188194983129623457" datatype="html">
-        <source>Año de lanzamiento: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.release_date }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Year of release: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.release_date }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-      </trans-unit>
-      <trans-unit id="2944085349450089786" datatype="html">
-        <source>Clasificación: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.vote_average }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Rating: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.vote_average }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-      </trans-unit>
-      <trans-unit id="7304555037996410081" datatype="html">
-        <source>Duración: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.runtime }}"/> min<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Duration: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.runtime }}"/> min<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-      </trans-unit>
-      <trans-unit id="524335696121086009" datatype="html">
-        <source>Resumen:</source>
-        <target>Summary:</target>
-      </trans-unit>
-      <trans-unit id="1390309370277586795" datatype="html">
-        <source>Géneros:</source>
-        <target>Genres:</target>
-      </trans-unit>
-      <trans-unit id="2724459879688272314" datatype="html">
-        <source>Compañías de Producción:</source>
-        <target>Production Companies:</target>
-      </trans-unit>
-      <trans-unit id="5788914631158287185" datatype="html">
-        <source>Países de Producción:</source>
-        <target>Production Countries:</target>
-      </trans-unit>
-      <trans-unit id="6267365236898600473" datatype="html">
-        <source>Idiomas:</source>
-        <target>Languages:</target>
-      </trans-unit>
-      <trans-unit id="8330010531045494067" datatype="html">
-        <source>Escribir una reseña:</source>
-        <target>Write a review:</target>
-      </trans-unit>
-      <trans-unit id="5117835882019410624" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;release-year-text&quot; style=&quot;color: black;&quot;&gt;"/>Año de Lanzamiento: <x id="INTERPOLATION" equiv-text="{{ (movie.release_date | date: &apos;yyyy&apos;) || &apos;N/A&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;release-year-text&quot; style=&quot;color: black;&quot;&gt;"/>Release Year: <x id="INTERPOLATION" equiv-text="{{ (movie.release_date | date: &apos;yyyy&apos;) || &apos;N/A&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-      </trans-unit>
-      <trans-unit id="2257813166930617177" datatype="html">
-        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;rating-text&quot; style=&quot;color: black;&quot;&gt;"/>Rating: <x id="INTERPOLATION" equiv-text="{{ movie.vote_average || &apos;N/A&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;rating-text&quot; style=&quot;color: black;&quot;&gt;"/>Rating: <x id="INTERPOLATION" equiv-text="{{ movie.vote_average || &apos;N/A&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-      </trans-unit>
-       <trans-unit id="765320357041175522" datatype="html">
-        <source>Actores Populares</source>
-        <target>Popular Actors</target>
+      <trans-unit id="7259883397103295489" datatype="html">
+        <source>Enlaces rápidos</source>
+        <target>Quick Links</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8911288406339551123" datatype="html">
-        <source>Nuevos Actores</source>
-        <target>New Actors</target>
+      <trans-unit id="1926157928707021468" datatype="html">
+        <source>Inicio</source>
+        <target>Home</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7707176955005055131" datatype="html">
+        <source>Series</source>
+        <target>Series</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3123860279116343800" datatype="html">
+        <source>Películas</source>
+        <target>Movies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8433768950518578342" datatype="html">
+        <source>Contacto</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3650061425499902090" datatype="html">
+        <source>Correo: jm.bermudezv1@uniandes.co</source>
+        <target>Email: jm.bermudezv1@uniandes.co</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4862186940476782679" datatype="html">
+        <source>Teléfono: 123-456-7890</source>
+        <target>Phone: 123-456-7890</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2263463443439637700" datatype="html">
+        <source>© <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span id=&quot;currentYear&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Todos los derechos reservados</source>
+        <target>© <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span id=&quot;currentYear&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> All rights reserved</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3783637113284350407" datatype="html">
+        <source>Crear Película</source>
+        <target>Create Movie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8295849360287296851" datatype="html">
@@ -140,46 +80,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
           <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7210102153423088297" datatype="html">
-        <source>Ciencia Ficción</source>
-        <target>Science Fiction</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="161387063603859817" datatype="html">
-        <source>Director:</source>
-        <target>Director:</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="887343819685069402" datatype="html">
-        <source>Año de lanzamiento:</source>
-        <target>Release Year:</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3789401021431701793" datatype="html">
-        <source>Sinopsis:</source>
-        <target>Synopsis:</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
-          <context context-type="linenumber">81</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4739581576011341894" datatype="html">
-        <source>Género:</source>
-        <target>Genre:</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
-          <context context-type="linenumber">52</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6006818960435772751" datatype="html">
@@ -198,6 +98,334 @@
           <context context-type="linenumber">32,34</context>
         </context-group>
       </trans-unit>
-    </body>
+      <trans-unit id="161387063603859817" datatype="html">
+        <source>Director:</source>
+        <target>Director:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4739581576011341894" datatype="html">
+  <source>Género:</source>
+  <target>Genre:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">52</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="1279538815662451526" datatype="html">
+  <source>Acción</source>
+  <target>Action</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">59</context>
+  </context-group>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">38</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="7444389376942611924" datatype="html">
+  <source>Comedia</source>
+  <target>Comedy</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">60</context>
+  </context-group>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">40</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="7545104110348041963" datatype="html">
+  <source>Drama</source>
+  <target>Drama</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">61</context>
+  </context-group>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">39</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="7210102153423088297" datatype="html">
+  <source>Ciencia Ficción</source>
+  <target>Science Fiction</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">62</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="2586525251819930434" datatype="html">
+  <source>Romance</source>
+  <target>Romance</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">63</context>
+  </context-group>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">42</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="887343819685069402" datatype="html">
+  <source>Año de lanzamiento:</source>
+  <target>Release Year:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">69</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="3789401021431701793" datatype="html">
+  <source>Sinopsis:</source>
+  <target>Synopsis:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">81</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="1372173599787735409" datatype="html">
+  <source>Guardar</source>
+  <target>Save</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/create-movie/create-movie.component.html</context>
+    <context context-type="linenumber">98</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="4502798596162438451" datatype="html">
+  <source> Actores </source>
+  <target> Actors </target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">14,16</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="765320357041175522" datatype="html">
+  <source>Actores Populares</source>
+  <target>Popular Actors</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">18</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="8911288406339551123" datatype="html">
+  <source>Nuevos Actores</source>
+  <target>New Actors</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">19</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="283291494301667049" datatype="html">
+  <source> Directores </source>
+  <target> Directors </target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">24,26</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5223288228842419652" datatype="html">
+  <source>Directores Destacados</source>
+  <target>Featured Directors</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">28</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="2562963286960758151" datatype="html">
+  <source>Directores Premiados</source>
+  <target>Award-winning Directors</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">29</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="8927975984143490369" datatype="html">
+  <source> Géneros </source>
+  <target> Genres </target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">34,36</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="3903444259425984302" datatype="html">
+  <source>Thriller</source>
+  <target>Thriller</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">41</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5808487627583461007" datatype="html">
+  <source>Ciencia ficción</source>
+  <target>Science Fiction</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">43</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="9208846653806748516" datatype="html">
+  <source> Películas </source>
+  <target> Movies </target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">47,49</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5630208417292473095" datatype="html">
+  <source>Más Populares</source>
+  <target>Most Popular</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">51</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5329248590514087031" datatype="html">
+  <source>Novedades</source>
+  <target>New Releases</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">52</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="2824586844633101998" datatype="html">
+  <source>Crear Nueva Película</source>
+  <target>Create New Movie</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">53</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="8713073708350341933" datatype="html">
+  <source>Buscar</source>
+  <target>Search</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+    <context context-type="linenumber">61</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="6176297911461340023" datatype="html">
+  <source>Interestellar</source>
+  <target>Interstellar</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+    <context context-type="linenumber">13</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="805660034500030791" datatype="html">
+  <source> Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar. </source>
+  <target>It narrates the adventures of a group of explorers who make use of a recently discovered wormhole to overcome the limitations of manned space travel and overcome the immense distances of an interstellar journey.</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+    <context context-type="linenumber">14,16</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5363155044124004742" datatype="html">
+  <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa-play&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>Play</source>
+  <target>Play</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+    <context context-type="linenumber">17</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="7322039934131056232" datatype="html">
+  <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa-info-circle&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>More Information</source>
+  <target>More Information</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+    <context context-type="linenumber">18</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5188194983129623457" datatype="html">
+  <source>Release Year: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.release_date }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+  <target>Release Year: <x id="INTERPOLATION" equiv-text="{{ movie.release_date }}"/></target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">13</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="2944085349450089786" datatype="html">
+  <source>Classification: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.vote_average }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+  <target>Classification: <x id="INTERPOLATION" equiv-text="{{ movie.vote_average }}"/></target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">14</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="7304555037996410081" datatype="html">
+  <source>Duration: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ movie.runtime }}"/> min<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+  <target>Duration: <x id="INTERPOLATION" equiv-text="{{ movie.runtime }}"/> min</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">15</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="524335696121086009" datatype="html">
+  <source>Summary:</source>
+  <target>Summary:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">16</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="1390309370277586795" datatype="html">
+  <source>Genres:</source>
+  <target>Genres:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">19</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="2724459879688272314" datatype="html">
+  <source>Production Companies:</source>
+  <target>Production Companies:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">26</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5788914631158287185" datatype="html">
+  <source>Production Countries:</source>
+  <target>Production Countries:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">33</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="6267365236898600473" datatype="html">
+  <source>Languages:</source>
+  <target>Languages:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">40</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="8330010531045494067" datatype="html">
+  <source>Write a Review:</source>
+  <target>Write a Review:</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-details/movies-details.component.html</context>
+    <context context-type="linenumber">47</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="5117835882019410624" datatype="html">
+  <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;release-year-text&quot; style=&quot;color: black;&quot;&gt;"/>Release Year: <x id="INTERPOLATION" equiv-text="{{ (movie.release_date | date: 'yyyy') || 'N/A' }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+  <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;release-year-text&quot; style=&quot;color: black;&quot;&gt;"/>Release Year: <x id="INTERPOLATION" equiv-text="{{ (movie.release_date | date: 'yyyy') || 'N/A' }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-list/movies-list.component.html</context>
+    <context context-type="linenumber">10</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="2257813166930617177" datatype="html">
+  <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;rating-text&quot; style=&quot;color: black;&quot;&gt;"/>Rating: <x id="INTERPOLATION" equiv-text="{{ movie.vote_average || 'N/A' }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+  <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;rating-text&quot; style=&quot;color: black;&quot;&gt;"/>Rating: <x id="INTERPOLATION" equiv-text="{{ movie.vote_average || 'N/A' }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/components/movies/movies-list/movies-list.component.html</context>
+    <context context-type="linenumber">11</context>
+  </context-group>
+</trans-unit>
+  </body>
   </file>
 </xliff>

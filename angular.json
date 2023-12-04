@@ -17,9 +17,9 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "es-US",
         "locales": {
-          "es": {
+          "en": {
             "translation": "src/locale/messages.en.xlf",
             "baseHref": ""
           }
@@ -47,9 +47,9 @@
             ]
           },
           "configurations": {
-            "es": {
-              "localize": ["es"],
-              "outputPath": "dist/movies-app-es/",
+            "en": {
+              "localize": ["en"],
+              "outputPath": "dist/movies-app-en/",
               "i18nMissingTranslation": "error"
             },
             "production": {
@@ -87,8 +87,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
-            "es": {
-              "browserTarget": "movies-app:build:es"
+            "en": {
+              "browserTarget": "movies-app:build:en"
             },
             "production": {
               "browserTarget": "movies-app:build:production"

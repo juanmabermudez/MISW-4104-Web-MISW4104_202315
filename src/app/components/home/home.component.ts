@@ -20,7 +20,6 @@ export class HomeComponent implements OnInit {
       title: 'Movie 2',
       poster_path: '/path_to_poster2.jpg'
     },
-    // Agrega más películas si es necesario
   ];
   constructor(private moviesService: MoviesService) {}
 
@@ -33,7 +32,6 @@ export class HomeComponent implements OnInit {
       const randomIndex = Math.floor(Math.random() * this.randomMovies.length);
       return 'https://image.tmdb.org/t/p/w500' + this.randomMovies[randomIndex]?.poster_path;
     } else {
-      // Si no hay películas aleatorias disponibles, proporciona una URL predeterminada o maneja el caso según sea necesario
       return 'https://image.tmdb.org/t/p/w500';
     }
   }
@@ -46,7 +44,6 @@ export class HomeComponent implements OnInit {
     if (movie && movie.poster_path) {
       return 'https://image.tmdb.org/t/p/w500' + movie.poster_path;
     } else {
-      // Si no hay imagen disponible, puedes mostrar una imagen por defecto
       return 'URL_DE_LA_IMAGEN_POR_DEFECTO';
     }
   }

@@ -9,7 +9,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class MoviesListComponent implements OnInit {
   movies: any[] = [];
-  searchTerm: string | null = null; // Variable para almacenar el término de búsqueda
+  searchTerm: string | null = null;
 
   constructor(
     private moviesService: MoviesService,
@@ -18,15 +18,12 @@ export class MoviesListComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    // Observa los cambios en los parámetros de consulta
     this.activatedRoute.queryParams.subscribe(params => {
-      this.searchTerm = params['q']; // Obtén el valor de 'q' de los parámetros de consulta
+      this.searchTerm = params['q']; 
 
-      // Verifica si hay un término de búsqueda y realiza la búsqueda
       if (this.searchTerm) {
         this.searchMovies(this.searchTerm);
       } else {
-        // Si no hay término de búsqueda, realiza alguna lógica predeterminada o carga todas las películas
         this.loadAllMovies();
       }
     });

@@ -30,14 +30,14 @@
   }
   
   .card-text > span {
-    color: #333; /* Cambia el color del texto del año y el rating */
-    font-weight: bold; /* Añade negrita para destacar */
+    color: #333; 
+    font-weight: bold; 
   }
 
   .movie-card .release-year-text {
-    color: white; /* Cambia el color del año de lanzamiento */
+    color: white; 
 }
 
   .movie-card .rating-text {
-    color: white; /* Cambia el color de 'Rating:' y su valor */
+    color: white;
 }

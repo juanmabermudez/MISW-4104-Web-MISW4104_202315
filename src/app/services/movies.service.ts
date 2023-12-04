@@ -61,7 +61,7 @@ export class MoviesService {
       .pipe(
         map((movie: any) => {
           if (!movie.reviews) {
-            movie.reviews = []; // Inicializa las reseñas si no existen
+            movie.reviews = []; 
           }
           return movie;
         })
@@ -70,7 +70,7 @@ export class MoviesService {
 
   createMovie(movieData: any): Observable<any> {
     this.localMovies.push(movieData);
-    return of(movieData); // Simula la llamada HTTP para agregar la película
+    return of(movieData); 
   }
 
   getLocalMovies(): any[] {
